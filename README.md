@@ -45,7 +45,7 @@
 </$var>
 ```
 
-##### &lt;!-- estrutura de dados complexas --&gt;
+### &lt;!-- estrutura de dados complexas --&gt;
 ```html
 <$var type="object" id="article">
   <$var type="string" id="title">About next season of GoT</$var>
