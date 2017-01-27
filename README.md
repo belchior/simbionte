@@ -51,13 +51,13 @@
   <$var type="string" id="title">About next season of GoT</$var>
   <$var type="number" id="comments-count">2</$var>
   <$var type="array" id="comments">
-    <$var id="comment>
-      <$var id="autor-name" value="Ned" />
+    <$var type="object">
+      <$var id="autor-name">Ned</$var>
       <$var id="autor-comment>The winter is coming</$var>
     </$var>
-    <$var id="comment>
+    <$var type="object>
       <$var id="autor-name" value="Hodor" />
-      <$var id="autor-comment>hodor, hodor</$var>
+      <$var id="autor-comment value="hodor, hodor" />
     </$var>
   </$var>
 </$var>
