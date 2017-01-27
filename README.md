@@ -74,7 +74,7 @@
 <$--
 <$var type="number" id="pi" value="3.14" />
 <$var type="number" id="pi">3.14</$var>
--->;
+-->
 ```
 
 ```html
