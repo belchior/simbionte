@@ -69,7 +69,7 @@
 <$echo person.name />
 ```
 
-##### &lt;!-- comentando código --&gt;
+## &lt;!-- comentando código --&gt;
 ```html
 <$--
 <$var type="number" id="pi" value="3.14" />
@@ -100,6 +100,8 @@
 </$if>
 ```
 
+
+## &lt;!-- Importanto partes de código --&gt;
 ```html
 <$import src="../path/to/file.htmls" />
 ```
