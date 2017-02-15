@@ -85,20 +85,28 @@
 <$function avatar />
 ```
 
+## &lt;!-- Iteradores --&gt;
 ```html
 <$for cond="person of people">
-  <span><$var person.name /><span>
+  <span><$echo person.name /><span>
 </$for>
 ```
 
+## &lt;!-- Condicional --&gt;
 ```html
-<$if cond="title" id="test-title">
-  <h1>
-    <$then for="test-title"><$var title /></$then>
-    <$else for="test-title">No title</$else>
-  <h1>
+<$if cond="$title" id="test-title">
+  <$then for="test-title"><h1><$echo title /><h1></$then>
+  <$else for="test-title"><h1>No title<h1></$else>
 </$if>
 ```
+
+### &lt;!-- Variação de condicional --&gt;
+```html
+<$if cond="$title" id="test-title"></$if>
+<$then for="test-title"><$echo title /></$then>
+<$else for="test-title">No title</$else>
+```
+Declarações `then` e `else` dentro da declaração `if` teram precedência sobre as declarações que estiverem fora.
 
 
 ## &lt;!-- Importanto partes de código --&gt;
