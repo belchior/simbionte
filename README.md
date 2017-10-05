@@ -1,5 +1,8 @@
 # Simbionte
-> Concept of template engine for HTML
+> Conceito de _template engine_ para HTML
+
+Se por algum motivo fosse decidido que o HTML tivesse que ter comportamento dinâmico mas ainda sim mantendo sua natureza declarativa, como seria essa implementação?
+Abaixo está meu devaneio a respeito dessa pergunta.
 
 ## &lt;!-- definição de variáveis --&gt;
 
