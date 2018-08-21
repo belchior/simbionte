@@ -79,7 +79,7 @@ Abaixo está meu devaneio a respeito dessa pergunta.
 <$var type="number" id="pi">3.14</$var>
 -->
 ```
-
+## &lt;!-- Definindo funções --&gt;
 ```html
 <$function id="avatar" param="$url, $image, $name">
   <a href="$url"><img src="$image" alt="$name"><a>
